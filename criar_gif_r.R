@@ -22,8 +22,8 @@ animacao <- image_animate(image_scale(gif, "550"),
                           dispose = "previous")
 
 # image_animate é a função que criará o gif.
-# image_scale é a função para declarar o tamanho da imagem, os segundos da animação (fps)
-# e dispose com o argumento "previous" que substituirá a primeira imagem pela segunda
+# image_scale é a função para declarar o tamanho da imagem e os segundos da animação (fps)
+# juntamente ao dispose com o argumento "previous" que substituirá a primeira imagem pela segunda
 # gerando a animação.
 
 # Salvar o gif no diretório ----------------------------------------------------------------------------------------------------------------
