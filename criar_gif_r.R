@@ -6,14 +6,16 @@ library("magick")
 
 # Salvar imagens para o gif ----------------------------------------------------------------------------------------------------------------
 
-png_1 <- image_read("arv_natal.jpg") 
-png_2 <- image_read("arv_natal_2.jpg")
+png_1 <- image_read("arv_natal.png") 
+png_2 <- image_read("arv_natal_2.png")
+png_3 <- image_read("arv_natal_3.png")
+png_4 <- image_read("arv_natal_4.png")
 
 # image_read é a função para ler as imagens salvas no diretório.
 
 # Salvar imagens ordenadas -----------------------------------------------------------------------------------------------------------------
 
-gif <- c(png_1, png_2)
+gif <- c(png_1, png_2, png_3, png_4)
 
 # Criar o gif (animação) -------------------------------------------------------------------------------------------------------------------
 
